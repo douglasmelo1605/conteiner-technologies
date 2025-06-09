@@ -1,5 +1,5 @@
 data "aws_lb_target_group" "this" {
-  name = "app-prod-tg"
+  name = "app-prod-sg"
 }
 
 data "aws_security_groups" "this" {
